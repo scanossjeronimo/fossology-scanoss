@@ -20,9 +20,9 @@ For each snippet or full file, the agent can provide information about version, 
 The SCANOSS scan returns this information as a summary:
 - Type of match (full file or snippet)
 - Line ranges
-- Matching file and path inside the repository
-- PURL
 - URL
+- PURL
+- Path inside the repository
 
 Each file is fingerprinted and sent to [osskb.org](osskb.org) server. **Only** fingerprints are sent, so your code keeps **CONFIDENTIAL**
 Results are organized and placed on Fossology tables and SCANOSS Agent own tables.
