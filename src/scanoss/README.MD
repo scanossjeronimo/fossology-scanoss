@@ -27,4 +27,11 @@ The SCANOSS scan returns this information as a summary:
 Each file is fingerprinted and sent to [osskb.org](osskb.org) server. **Only** fingerprints are sent, so your code keeps **CONFIDENTIAL**
 Results are organized and placed on Fossology tables and SCANOSS Agent own tables.
 
+## Configuration 
 
+There are 2 options available for configuration (accesible via Admin > Customize > SCANOSS config):
+
+- Scanoss API url: this field defines which endpoint you will be scanning against, by default is set to osskb.org (the free Open Source Software Knowledge Base distributed by the Software Transparency Foundation), but it can also be set to the SCANOSS Premium Service URL https://api.scanoss.com/scan/direct
+- Access token: this field refers to the API Key related to the SCANOSS Premium Service (optional - not needed for osskb.org)
+
+![Screenshot](pics/screenshot3.png)
