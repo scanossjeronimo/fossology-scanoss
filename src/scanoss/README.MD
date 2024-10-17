@@ -22,7 +22,7 @@ The SCANOSS scan returns this information as a summary:
 - Line ranges
 - URL
 - PURL
-- Path inside the repository
+- Path inside the repository 
 
 Each file is fingerprinted and sent to [osskb.org](osskb.org) server. **Only** fingerprints are sent, so your code keeps **CONFIDENTIAL**
 Results are organized and placed on Fossology tables and SCANOSS Agent own tables.
